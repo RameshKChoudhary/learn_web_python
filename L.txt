@@ -1,0 +1,27 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <h1>hello form {{name}}, {{age}} years old </h1> -->
+     
+    <!-- action means where want to send the data -->
+    <!-- <h1>Input your text here : </h1>
+     <form method="POST" action="counter"> 
+        {% csrf_token %}
+        <textarea name="text" rows="10" cols="50" ></textarea><br>
+        <input type="submit"/>
+     </form> -->
+    
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+     <h1>the static css</h1>
+</body>
+</html>
